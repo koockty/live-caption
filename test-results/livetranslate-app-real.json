@@ -1,0 +1,33 @@
+{
+  "elapsed_ms": 9047,
+  "model": "qwen3.8-livetranslate-flash-realtime",
+  "snapshot": {
+    "session_id": "781d743736252b05d289e974af4953ff",
+    "epoch": 1,
+    "state": "stopped",
+    "event_seq": 28,
+    "transcript": {
+      "item_id": "item_AzrybtbxJlkaTPahH5CY7",
+      "confirmed": "こんにちは 今日はいい天気です。 日本語の音声を中国語に翻訳するテストです。 ",
+      "draft": "",
+      "final": true
+    },
+    "captions": [
+      {
+        "id": "item_DdfKj3rAfCgTVVP1up96c",
+        "order": 1,
+        "item_ids": [
+          "item_AzrybtbxJlkaTPahH5CY7"
+        ],
+        "ja": "こんにちは 今日はいい天気です。 日本語の音声を中国語に翻訳するテストです。 ",
+        "zh": "你好。今天天气很好。这是一个将日语音频翻译成中文的测试。",
+        "state": "translated",
+        "revision": 10
+      }
+    ],
+    "audio_ms": 8891,
+    "input_tokens": 96,
+    "output_tokens": 24
+  },
+  "success": true
+}
